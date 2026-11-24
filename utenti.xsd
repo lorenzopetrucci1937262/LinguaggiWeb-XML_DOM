@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="utenti">
+
+    <xs:complexType><xs:sequence>
+      <xs:element name="utente" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="id" type="xs:ID" use="required"/>
+          <xs:attribute name="username" type="xs:string" use="required"/>
+          <xs:attribute name="hash" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence></xs:complexType>
+    <xs:unique name="usernameUnico"><xs:selector xpath="utente"/><xs:field xpath="@username"/></xs:unique>
+    
+  </xs:element>
+
+</xs:schema>

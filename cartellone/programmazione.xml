@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<programmazione xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../programmazione.xsd">
+  
+  <film id="wild-horse-nine" stato="in_proiezione" uscita="2026-11-05">
+    <titolo>Wild Horse Nine</titolo>
+    <durata>118</durata>
+    <regia>Martin McDonagh</regia>
+    <generi>
+      <genere>Commedia nera</genere>
+      <genere>Crime</genere>
+    </generi>
+    <cast>
+      <attore>Sam Rockwell</attore>
+      <attore>John Malkovich</attore>
+    </cast>
+    <trama>Nel Cile del 1973 due agenti della CIA ricevono un incarico sull’Isola di Pasqua.</trama>
+    <proiezione sala="gialla" data="2026-11-24" ora="16:00:00" id="p-3d576a9afd04"/>
+    <proiezione sala="gialla" data="2026-11-24" ora="21:30:00" id="p-ecbb7464443b"/>
+    <proiezione sala="gialla" data="2026-11-25" ora="18:30:00" id="p-bb64c458f906"/>
+  </film>
+
+  <film id="hunger-games" maxPerFascia="2" stato="in_proiezione" uscita="2026-11-19">
+    <titolo>Hunger Games – L’alba sulla mietitura</titolo>
+    <durata>158</durata>
+    <regia>Francis Lawrence</regia>
+    <generi>
+      <genere>Fantascienza</genere>
+    </generi>
+    <cast>
+      <attore>Joseph Zada</attore>
+      <attore>Mckenna Grace</attore>
+    </cast>
+    <trama>Haymitch Abernathy viene scelto per partecipare alla cinquantesima edizione degli Hunger Games.</trama>
+    <proiezione sala="grande" data="2026-11-24" ora="15:40:00" id="p-3065d85a47d5"/>
+    <proiezione sala="grande" data="2026-11-24" ora="21:30:00" id="p-1cecca5eb7fb"/>
+    <proiezione sala="blu" data="2026-11-24" ora="18:30:00" id="p-d79fc04fa50d"/>
+    <proiezione sala="grande" data="2026-11-25" ora="15:40:00" id="p-094364f8cd76"/>
+    <proiezione sala="grande" data="2026-11-25" ora="21:30:00" id="p-118a35f343ef"/>
+    <proiezione sala="blu" data="2026-11-25" ora="18:30:00" id="p-cddf860f8c96"/>
+    <proiezione sala="grande" data="2026-11-26" ora="21:00:00" id="p-11b918b862ce"/>
+    <proiezione sala="blu" data="2026-11-26" ora="15:30:00" id="p-999cba8ccb85"/>
+    <proiezione sala="blu" data="2026-11-26" ora="18:35:00" id="p-b83910b8a08d"/>
+    <proiezione sala="grande" data="2026-11-27" ora="21:00:00" id="p-14e5d5d70f37"/>
+    <proiezione sala="blu" data="2026-11-27" ora="15:30:00" id="p-e4d169d57258"/>
+    <proiezione sala="blu" data="2026-11-27" ora="18:35:00" id="p-56c0987ae427"/>
+    <proiezione sala="grande" data="2026-11-28" ora="21:00:00" id="p-4b88a76bd90f"/>
+    <proiezione sala="blu" data="2026-11-28" ora="15:30:00" id="p-834db066365f"/>
+    <proiezione sala="blu" data="2026-11-28" ora="18:35:00" id="p-f30a3182e55c"/>
+    <proiezione sala="grande" data="2026-11-29" ora="21:00:00" id="p-8f0b409bff6b"/>
+    <proiezione sala="blu" data="2026-11-29" ora="15:30:00" id="p-0162e3e82436"/>
+    <proiezione sala="blu" data="2026-11-29" ora="18:35:00" id="p-7ff1d291a6e0"/>
+    <proiezione sala="grande" data="2026-11-30" ora="21:00:00" id="p-3385eb3e7cc4"/>
+    <proiezione sala="blu" data="2026-11-30" ora="15:30:00" id="p-d7b988c6b87b"/>
+    <proiezione sala="blu" data="2026-11-30" ora="18:35:00" id="p-af519f880b66"/>
+    <proiezione sala="grande" data="2026-12-01" ora="21:00:00" id="p-1217cccfa180"/>
+    <proiezione sala="blu" data="2026-12-01" ora="15:30:00" id="p-bd3118b617c1"/>
+    <proiezione sala="blu" data="2026-12-01" ora="18:35:00" id="p-cacd406448cb"/>
+    <proiezione sala="grande" data="2026-12-02" ora="21:00:00" id="p-31751f05b71b"/>
+    <proiezione sala="blu" data="2026-12-02" ora="15:30:00" id="p-af3d2a605871"/>
+    <proiezione sala="blu" data="2026-12-02" ora="18:35:00" id="p-6ad14f82eb2e"/>
+  </film>
+
+  <film id="fjord" stato="in_proiezione" uscita="2026-11-19">
+    <titolo>Fjord</titolo>
+    <durata>146</durata>
+    <regia>Cristian Mungiu</regia>
+    <generi>
+      <genere>Drammatico</genere>
+    </generi>
+    <cast>
+      <attore>Renate Reinsve</attore>
+      <attore>Sebastian Stan</attore>
+    </cast>
+    <trama>Due famiglie vicine di casa in Norvegia si confrontano sui modi di crescere i figli.</trama>
+    <proiezione sala="rossa" data="2026-11-24" ora="15:50:00" id="p-8e9bd515f17b"/>
+    <proiezione sala="rossa" data="2026-11-24" ora="18:30:00" id="p-c1261ebee545"/>
+    <proiezione sala="rossa" data="2026-11-24" ora="21:30:00" id="p-ad2f3e3c6dd6"/>
+    <proiezione sala="rossa" data="2026-11-25" ora="15:50:00" id="p-0121b7f61c71"/>
+    <proiezione sala="rossa" data="2026-11-25" ora="18:30:00" id="p-cf274403e41c"/>
+    <proiezione sala="rossa" data="2026-11-25" ora="21:30:00" id="p-cae519c779b4"/>
+    <proiezione sala="gialla" data="2026-11-26" ora="15:45:00" id="p-0972da7eab95"/>
+    <proiezione sala="gialla" data="2026-11-27" ora="15:45:00" id="p-c532d7f1cc57"/>
+    <proiezione sala="gialla" data="2026-11-28" ora="15:45:00" id="p-81897f66a057"/>
+    <proiezione sala="gialla" data="2026-11-29" ora="15:45:00" id="p-f0289702b06c"/>
+    <proiezione sala="gialla" data="2026-11-30" ora="15:45:00" id="p-54888ce3695a"/>
+    <proiezione sala="gialla" data="2026-12-01" ora="15:45:00" id="p-f834676f8c76"/>
+    <proiezione sala="gialla" data="2026-12-02" ora="15:45:00" id="p-85490b3f0b17"/>
+  </film>
+
+  <film id="look-back" stato="in_proiezione" uscita="2026-11-12">
+    <titolo>Look Back</titolo>
+    <durata>100</durata>
+    <regia>Hirokazu Kore-eda</regia>
+    <generi>
+      <genere>Drammatico</genere>
+    </generi>
+    <cast>
+      <attore>Ryô Ikeda</attore>
+      <attore>Miyu Sasaki</attore>
+    </cast>
+    <trama>Due ragazze unite dalla passione per i manga imparano a disegnare insieme.</trama>
+    <proiezione sala="gialla" data="2026-11-24" ora="18:30:00" id="p-3e5e1f324c5e"/>
+    <proiezione sala="gialla" data="2026-11-25" ora="16:00:00" id="p-ad59b5b1e674"/>
+    <proiezione sala="gialla" data="2026-11-25" ora="21:30:00" id="p-77cf31246a3f"/>
+  </film>
+
+  <film id="godzilla-minus-zero" stato="in_proiezione" uscita="2026-11-12">
+    <titolo>Godzilla Minus Zero</titolo>
+    <durata>135</durata>
+    <regia>Takashi Yamazaki</regia>
+    <generi>
+      <genere>Fantascienza</genere>
+    </generi>
+    <cast>
+      <attore>Ryûnosuke Kamiki</attore>
+      <attore>Minami Hamabe</attore>
+    </cast>
+    <trama>Nel Giappone del dopoguerra la famiglia Shikishima affronta una nuova minaccia.</trama>
+    <proiezione sala="grande" data="2026-11-24" ora="18:30:00" id="p-431b8f2e22d0"/>
+    <proiezione sala="blu" data="2026-11-24" ora="16:00:00" id="p-064956175a93"/>
+    <proiezione sala="blu" data="2026-11-24" ora="21:30:00" id="p-442e1f5d1d9b"/>
+    <proiezione sala="grande" data="2026-11-25" ora="18:30:00" id="p-e78209ed85e3"/>
+    <proiezione sala="blu" data="2026-11-25" ora="16:00:00" id="p-6c47a8a27d83"/>
+    <proiezione sala="blu" data="2026-11-25" ora="21:30:00" id="p-d1b469dfcd13"/>
+  </film>
+
+  <film id="dune-3" maxPerFascia="2" stato="in_calendario" uscita="2026-12-16">
+    <titolo>Dune – Parte Tre</titolo>
+    <regia>Denis Villeneuve</regia>
+    <generi>
+      <genere>Fantascienza</genere>
+    </generi>
+    <cast>
+      <attore>Timothée Chalamet</attore>
+      <attore>Zendaya</attore>
+    </cast>
+    <trama>La storia di Paul Atreides prosegue dopo la sua ascesa al trono imperiale.</trama>
+  </film>
+
+  <film id="hexe" stato="in_proiezione" uscita="2026-11-26">
+    <titolo>Hexe – Il regno delle streghe</titolo>
+    <durata>109</durata>
+    <regia>Jason Hand</regia>
+    <regia>Fawn Veerasunthorn</regia>
+    <generi>
+      <genere>Animazione</genere>
+      <genere>Avventura</genere>
+    </generi>
+    <cast>
+      <attore>Hailee Steinfeld</attore>
+      <attore>Rashida Jones</attore>
+    </cast>
+    <trama>Billie scopre di avere poteri magici. Insieme alla madre attraversa il confine fra la loro vita di periferia e un regno di streghe.</trama>
+    <proiezione sala="grande" data="2026-11-26" ora="16:15:00" id="p-c5ca3d99deb2"/>
+    <proiezione sala="grande" data="2026-11-26" ora="18:30:00" id="p-d37eba2d8256"/>
+    <proiezione sala="blu" data="2026-11-26" ora="21:40:00" id="p-d6fcad556ee6"/>
+    <proiezione sala="grande" data="2026-11-27" ora="16:15:00" id="p-eac52f13ef56"/>
+    <proiezione sala="grande" data="2026-11-27" ora="18:30:00" id="p-31826426bb50"/>
+    <proiezione sala="blu" data="2026-11-27" ora="21:40:00" id="p-5b7d41905d6f"/>
+    <proiezione sala="grande" data="2026-11-28" ora="16:15:00" id="p-3c53433af6b5"/>
+    <proiezione sala="grande" data="2026-11-28" ora="18:30:00" id="p-de25739618ee"/>
+    <proiezione sala="blu" data="2026-11-28" ora="21:40:00" id="p-b899d57d1ca1"/>
+    <proiezione sala="grande" data="2026-11-29" ora="16:15:00" id="p-d51bd0e0dd11"/>
+    <proiezione sala="grande" data="2026-11-29" ora="18:30:00" id="p-d7373761bc56"/>
+    <proiezione sala="blu" data="2026-11-29" ora="21:40:00" id="p-771d66b2968d"/>
+    <proiezione sala="grande" data="2026-11-30" ora="16:15:00" id="p-00243a55ff0d"/>
+    <proiezione sala="grande" data="2026-11-30" ora="18:30:00" id="p-9203ce7a3bc5"/>
+    <proiezione sala="blu" data="2026-11-30" ora="21:40:00" id="p-c58f8930b1f2"/>
+    <proiezione sala="grande" data="2026-12-01" ora="16:15:00" id="p-a225a743e432"/>
+    <proiezione sala="grande" data="2026-12-01" ora="18:30:00" id="p-20afe966488d"/>
+    <proiezione sala="blu" data="2026-12-01" ora="21:40:00" id="p-a4ccc632078c"/>
+    <proiezione sala="grande" data="2026-12-02" ora="16:15:00" id="p-0a0fc8f27533"/>
+    <proiezione sala="grande" data="2026-12-02" ora="18:30:00" id="p-8f3a400a98ba"/>
+    <proiezione sala="blu" data="2026-12-02" ora="21:40:00" id="p-d381230b81dc"/>
+  </film>
+
+  <film id="e-andata-cosi" stato="in_proiezione" uscita="2026-11-26">
+    <titolo>È andata così</titolo>
+    <durata>120</durata>
+    <regia>Gianni Zanasi</regia>
+    <generi>
+      <genere>Commedia</genere>
+    </generi>
+    <cast>
+      <attore>Michele Riondino</attore>
+      <attore>Valerio Mastandrea</attore>
+      <attore>Valentina Lodovini</attore>
+    </cast>
+    <trama>La casa di campagna di Cecilia diventa il punto di incontro dei tre uomini con cui ha condiviso la propria vita.</trama>
+    <proiezione sala="rossa" data="2026-11-26" ora="16:00:00" id="p-414a72261b47"/>
+    <proiezione sala="rossa" data="2026-11-26" ora="18:45:00" id="p-677320df6be0"/>
+    <proiezione sala="rossa" data="2026-11-26" ora="21:15:00" id="p-84d94e905da5"/>
+    <proiezione sala="rossa" data="2026-11-27" ora="16:00:00" id="p-ea85e0511648"/>
+    <proiezione sala="rossa" data="2026-11-27" ora="18:45:00" id="p-db54a874c63e"/>
+    <proiezione sala="rossa" data="2026-11-27" ora="21:15:00" id="p-66a6a3bfb9d4"/>
+    <proiezione sala="rossa" data="2026-11-28" ora="16:00:00" id="p-ca6f3573aaf1"/>
+    <proiezione sala="rossa" data="2026-11-28" ora="18:45:00" id="p-480b945d5e99"/>
+    <proiezione sala="rossa" data="2026-11-28" ora="21:15:00" id="p-220456df7d63"/>
+    <proiezione sala="rossa" data="2026-11-29" ora="16:00:00" id="p-3f30a1a83b26"/>
+    <proiezione sala="rossa" data="2026-11-29" ora="18:45:00" id="p-cd07991b4127"/>
+    <proiezione sala="rossa" data="2026-11-29" ora="21:15:00" id="p-0cfbb277c4ea"/>
+    <proiezione sala="rossa" data="2026-11-30" ora="16:00:00" id="p-d8e5e3522d76"/>
+    <proiezione sala="rossa" data="2026-11-30" ora="18:45:00" id="p-53dae6080b28"/>
+    <proiezione sala="rossa" data="2026-11-30" ora="21:15:00" id="p-626b1550ed90"/>
+    <proiezione sala="rossa" data="2026-12-01" ora="16:00:00" id="p-438053964b91"/>
+    <proiezione sala="rossa" data="2026-12-01" ora="18:45:00" id="p-7606d5634538"/>
+    <proiezione sala="rossa" data="2026-12-01" ora="21:15:00" id="p-595cda10b11d"/>
+    <proiezione sala="rossa" data="2026-12-02" ora="16:00:00" id="p-539b0f6f89d8"/>
+    <proiezione sala="rossa" data="2026-12-02" ora="18:45:00" id="p-0240b55e0500"/>
+    <proiezione sala="rossa" data="2026-12-02" ora="21:15:00" id="p-a75b54dadc58"/>
+  </film>
+
+  <film id="succedera-questa-notte" stato="in_calendario" uscita="2026-12-03">
+    <titolo>Succederà questa notte</titolo>
+    <regia>Nanni Moretti</regia>
+    <generi>
+      <genere>Drammatico</genere>
+    </generi>
+    <cast>
+      <attore>Louis Garrel</attore>
+      <attore>Jasmine Trinca</attore>
+    </cast>
+    <trama>Un incontro casuale a distanza di sette anni riapre la possibilità di un rapporto. Altre vite si intrecciano intorno al desiderio di ricominciare.</trama>
+  </film>
+
+  <film id="i-swear" stato="in_calendario" uscita="2026-12-09">
+    <titolo>I Swear – È più forte di me</titolo>
+    <regia>Kirk Jones</regia>
+    <generi>
+      <genere>Biografico</genere>
+      <genere>Drammatico</genere>
+    </generi>
+    <cast>
+      <attore>Robert Aramayo</attore>
+      <attore>Peter Mullan</attore>
+    </cast>
+    <trama>Nella Scozia degli anni Ottanta John Davidson cresce con la sindrome di Tourette. Le incomprensioni che incontra lo spingeranno a raccontare la propria esperienza in pubblico.</trama>
+  </film>
+
+  <film id="il-caso-marie-claire" stato="in_calendario" uscita="2026-12-10">
+    <titolo>Il caso Marie-Claire</titolo>
+    <regia>Lauriane Escaffre</regia>
+    <regia>Yvo Muller</regia>
+    <generi>
+      <genere>Drammatico</genere>
+      <genere>Storico</genere>
+    </generi>
+    <cast>
+      <attore>Charlotte Gainsbourg</attore>
+      <attore>Cécile de France</attore>
+    </cast>
+    <trama>Francia, 1972. Il processo a una sedicenne accusata di aborto porta davanti al tribunale di Bobigny una questione che divide il paese.</trama>
+  </film>
+
+  <film id="avengers-doomsday" stato="in_calendario" maxPerFascia="2" uscita="2026-12-16">
+    <titolo>Avengers: Doomsday</titolo>
+    <regia>Anthony Russo</regia>
+    <regia>Joe Russo</regia>
+    <generi>
+      <genere>Azione</genere>
+      <genere>Fantascienza</genere>
+    </generi>
+    <cast>
+      <attore>Robert Downey Jr.</attore>
+      <attore>Chris Hemsworth</attore>
+    </cast>
+    <trama>Gli eroi di tre universi affrontano una minaccia che mette in gioco la sopravvivenza dei loro mondi.</trama>
+  </film>
+
+  <film id="nella-gioia-e-nel-dolore" stato="in_calendario" uscita="2026-12-17">
+    <titolo>Nella gioia e nel dolore</titolo>
+    <regia>Ferzan Özpetek</regia>
+    <generi>
+      <genere>Drammatico</genere>
+    </generi>
+    <cast>
+      <attore>Vanessa Scalera</attore>
+      <attore>Sabrina Ferilli</attore>
+    </cast>
+    <trama>Una diva del cinema e le persone che le sono vicine fanno i conti con i ricordi che ancora le legano.</trama>
+  </film>
+
+  <film id="jumanji-open-world" stato="in_calendario" uscita="2026-12-25">
+    <titolo>Jumanji: Open World</titolo>
+    <regia>Jake Kasdan</regia>
+    <generi>
+      <genere>Avventura</genere>
+      <genere>Commedia</genere>
+    </generi>
+    <cast>
+      <attore>Dwayne Johnson</attore>
+      <attore>Karen Gillan</attore>
+      <attore>Jack Black</attore>
+    </cast>
+    <trama>Il gioco sfugge alla console e invade il mondo reale. Chi conosce già le sue regole deve affrontarle su un terreno nuovo.</trama>
+  </film>
+
+  <film id="bentornati-al-sud" stato="in_calendario" uscita="2026-12-25">
+    <titolo>Bentornati al Sud</titolo>
+    <regia>Luca Miniero</regia>
+    <generi>
+      <genere>Commedia</genere>
+    </generi>
+    <cast>
+      <attore>Claudio Bisio</attore>
+      <attore>Alessandro Siani</attore>
+    </cast>
+    <trama>Nuovo capitolo della commedia che segue le vicende di Alberto e Mattia tra Nord e Sud Italia.</trama>
+  </film>
+
+  <film id="ti-presento-i-fotter" stato="in_proiezione" uscita="2026-11-25">
+    <titolo>Ti presento i Fotter</titolo>
+    <durata>106</durata>
+    <regia>John Hamburg</regia>
+    <generi>
+      <genere>Commedia</genere>
+    </generi>
+    <cast>
+      <attore>Ben Stiller</attore>
+      <attore>Robert De Niro</attore>
+      <attore>Ariana Grande</attore>
+    </cast>
+    <trama>Il figlio di Greg presenta la donna che vuole sposare. Tocca a Greg scoprire quanto sia difficile dare il benvenuto a una nuova arrivata in famiglia.</trama>
+    <proiezione sala="gialla" data="2026-11-26" ora="18:40:00" id="p-eb1e2783c54f"/>
+    <proiezione sala="gialla" data="2026-11-26" ora="21:35:00" id="p-29259a9bdf33"/>
+    <proiezione sala="gialla" data="2026-11-27" ora="18:40:00" id="p-62edf9c9e785"/>
+    <proiezione sala="gialla" data="2026-11-27" ora="21:35:00" id="p-c8502ea403d7"/>
+    <proiezione sala="gialla" data="2026-11-28" ora="18:40:00" id="p-be295228e1ce"/>
+    <proiezione sala="gialla" data="2026-11-28" ora="21:35:00" id="p-4147b7eacb27"/>
+    <proiezione sala="gialla" data="2026-11-29" ora="18:40:00" id="p-b8398ed29418"/>
+    <proiezione sala="gialla" data="2026-11-29" ora="21:35:00" id="p-769f6a491f7f"/>
+    <proiezione sala="gialla" data="2026-11-30" ora="18:40:00" id="p-4268de566063"/>
+    <proiezione sala="gialla" data="2026-11-30" ora="21:35:00" id="p-a8a5f9d99dbd"/>
+    <proiezione sala="gialla" data="2026-12-01" ora="18:40:00" id="p-85b06d8a95fd"/>
+    <proiezione sala="gialla" data="2026-12-01" ora="21:35:00" id="p-60e881713d01"/>
+    <proiezione sala="gialla" data="2026-12-02" ora="18:40:00" id="p-94ee06ed3518"/>
+    <proiezione sala="gialla" data="2026-12-02" ora="21:35:00" id="p-d05e6b8bf3c8"/>
+  </film>
+
+  <film id="unaltra-notte-violenta-e-silenziosa" stato="in_calendario" uscita="2026-12-03">
+    <titolo>Un’altra notte violenta e silenziosa</titolo>
+    <regia>Tommy Wirkola</regia>
+    <generi>
+      <genere>Azione</genere>
+      <genere>Commedia</genere>
+    </generi>
+    <cast>
+      <attore>David Harbour</attore>
+      <attore>Kristen Bell</attore>
+    </cast>
+    <trama>Una banda prende il controllo di un centro commerciale del New Jersey. Tra le persone rimaste intrappolate trova un avversario inatteso: Babbo Natale.</trama>
+  </film>
+
+  <film id="werwulf" stato="in_calendario" uscita="2027-01-01">
+    <titolo>Werwulf</titolo>
+    <regia>Robert Eggers</regia>
+    <generi>
+      <genere>Horror</genere>
+    </generi>
+    <cast>
+      <attore>Aaron Taylor-Johnson</attore>
+      <attore>Lily-Rose Depp</attore>
+      <attore>Willem Dafoe</attore>
+    </cast>
+    <trama>Nell’Inghilterra medievale gli abitanti di un villaggio devono fare i conti con una creatura che si aggira nelle loro terre.</trama>
+  </film>
+
+  <film id="asterix-regno-nubia" stato="in_calendario" uscita="2027-01-13">
+    <titolo>Asterix e il Regno di Nubia</titolo>
+    <regia>Alexandre Heboyan</regia>
+    <generi>
+      <genere>Animazione</genere>
+      <genere>Avventura</genere>
+    </generi>
+    <cast>
+      <attore>Christian Clavier</attore>
+      <attore>François-Xavier Demaison</attore>
+    </cast>
+    <trama>Un elisir finisce nel calderone della pozione magica: gli abitanti del villaggio gallico si ritrovano bambini. Per rimediare occorre cercare aiuto in Nubia.</trama>
+  </film>
+
+  <film id="lucio" stato="in_calendario" uscita="2027-01-18">
+    <titolo>Lucio</titolo>
+    <regia>Ambrogio Lo Giudice</regia>
+    <generi>
+      <genere>Biografico</genere>
+      <genere>Musicale</genere>
+    </generi>
+    <cast>
+      <attore>Valentino Aquilano</attore>
+      <attore>Stefano Fregni</attore>
+      <attore>Tredici Pietro</attore>
+    </cast>
+    <trama>Dagli anni di formazione agli incontri con altri musicisti, il film ripercorre la vita di Lucio Dalla attraverso le persone che hanno condiviso il suo cammino.</trama>
+  </film>
+
+  <film id="bianco" stato="in_calendario" uscita="2027-01-21">
+    <titolo>Bianco</titolo>
+    <regia>Daniele Vicari</regia>
+    <generi>
+      <genere>Drammatico</genere>
+      <genere>Avventura</genere>
+    </generi>
+    <cast>
+      <attore>Alessandro Borghi</attore>
+      <attore>Jonas Bloquet</attore>
+    </cast>
+    <trama>Nel 1961 alpinisti italiani e francesi affrontano il Pilone Centrale del Frêney, sul Monte Bianco. Il maltempo trasforma la scalata in una lotta per tornare a valle.</trama>
+  </film>
+
+  <film id="scherzetto" stato="in_calendario" uscita="2027-01-28">
+    <titolo>Scherzetto</titolo>
+    <regia>Mario Martone</regia>
+    <generi>
+      <genere>Drammatico</genere>
+    </generi>
+    <cast>
+      <attore>Toni Servillo</attore>
+      <attore>Lorenzo Perrotta</attore>
+      <attore>Serena Rossi</attore>
+    </cast>
+    <trama>Un illustratore torna a Napoli per badare al nipote mentre cerca di finire un lavoro. Il bambino, nella casa di famiglia, gli impone un ritmo tutto suo.</trama>
+  </film>
+  
+</programmazione>

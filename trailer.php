@@ -1,0 +1,25 @@
+<?php
+// Identificativi YouTube, associati agli ID film di programmazione.xml.
+return [
+    'wild-horse-nine' => '5Zbl_AakI9c',
+    'hunger-games' => 'JHh7_klJXgk',
+    'fjord' => 'frg59VOungA',
+    'look-back' => '5R3EQMrVjt0',
+    'godzilla-minus-zero' => 'WR32RzMzVJc',
+    'dune-3' => 'BlAyKxScwyk',
+    'hexe' => 'L6Ooeacu0Go',
+    'e-andata-cosi' => 'd7DgZoV4HKw',
+    'succedera-questa-notte' => 'f4z6pq2tCjM',
+    'i-swear' => '10ynpduiRpM',
+    'il-caso-marie-claire' => 'v5U17gR-M8k',
+    'avengers-doomsday' => 'gUth3APCeyg',
+    'nella-gioia-e-nel-dolore' => 'McvUAvR4bbg',
+    'jumanji-open-world' => 'zhApeaHMvfs',
+    'bentornati-al-sud' => '_R-aDyCm-ho',
+    'ti-presento-i-fotter' => '5zmPdjZG0MI',
+    'unaltra-notte-violenta-e-silenziosa' => 'FmM2giDwLAE',
+    'werwulf' => 'nS3Fp2Mj7_w',
+    'asterix-regno-nubia' => '9U5x6pE6aPk',
+    'bianco' => '7nbUawdg3FU',
+    'scherzetto' => 'g4i7tncRr2Q',
+];

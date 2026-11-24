@@ -1,0 +1,24 @@
+<!ELEMENT cinema (nome, indirizzo, sale, tariffe, abbonamenti)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT indirizzo (#PCDATA)>
+<!ELEMENT sale (sala+)>
+<!ELEMENT sala (nome, posti, file)>
+<!ATTLIST sala id ID #REQUIRED>
+<!ELEMENT posti (#PCDATA)>
+<!ELEMENT file (#PCDATA)>
+
+<!ELEMENT tariffe (tariffa+, riduzione, supplemento3D)>
+<!ATTLIST tariffe valuta CDATA #REQUIRED>
+<!ELEMENT tariffa (condizione, intero, ridotto)>
+<!ATTLIST tariffa nome CDATA #REQUIRED>
+<!ELEMENT condizione (#PCDATA)>
+<!ELEMENT intero (#PCDATA)>
+<!ELEMENT ridotto (#PCDATA)>
+<!ELEMENT supplemento3D (#PCDATA)>
+<!ELEMENT riduzione (#PCDATA)>
+
+<!ELEMENT abbonamenti (abbonamento+)>
+<!ELEMENT abbonamento (ingressi, prezzo, condizione)>
+<!ATTLIST abbonamento nome CDATA #REQUIRED>
+<!ELEMENT ingressi (#PCDATA)>
+<!ELEMENT prezzo (#PCDATA)>

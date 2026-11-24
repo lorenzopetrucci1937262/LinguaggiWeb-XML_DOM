@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="StatoFilm">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="in_calendario"/>
+      <xs:enumeration value="in_proiezione"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="Proiezione">
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="in3D" type="xs:boolean" default="false"/>
+    <xs:attribute name="sala" type="xs:NCName" use="required"/>
+    <xs:attribute name="data" type="xs:date" use="required"/>
+    <xs:attribute name="ora" type="xs:time" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Film">
+    <xs:sequence>
+      <xs:element name="titolo" type="xs:string"/>
+      <xs:element name="durata" type="xs:positiveInteger" minOccurs="0"/>
+      <xs:element name="regia" type="xs:string" maxOccurs="unbounded"/>
+      <xs:element name="generi">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="genere" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="cast">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="attore" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="trama" type="xs:string"/>
+      <xs:element name="proiezione" type="Proiezione" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="maxPerFascia" default="1">
+      <xs:simpleType><xs:restriction base="xs:positiveInteger">
+        <xs:maxInclusive value="2"/>
+      </xs:restriction></xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="uscita" type="xs:date" use="optional"/>
+    <xs:attribute name="stato" type="StatoFilm" use="required"/>
+  </xs:complexType>
+
+  <xs:element name="programmazione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="film" type="Film" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

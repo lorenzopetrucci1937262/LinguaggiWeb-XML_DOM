@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cinema SYSTEM "cinema.dtd">
+<cinema>
+  <nome>Cinema Artemis</nome>
+  <indirizzo>Via Ennio Morricone 10, 04019 Terracina (LT)</indirizzo>
+  <sale>
+    <sala id="grande">
+      <nome>Sala Grande</nome>
+      <posti>384</posti>
+      <file>20</file>
+    </sala>
+    <sala id="blu">
+      <nome>Sala Blu</nome>
+      <posti>288</posti>
+      <file>12</file>
+    </sala>
+    <sala id="rossa">
+      <nome>Sala Rossa</nome>
+      <posti>216</posti>
+      <file>18</file>
+    </sala>
+    <sala id="gialla">
+      <nome>Sala Gialla</nome>
+      <posti>140</posti>
+      <file>14</file>
+    </sala>
+  </sale>
+
+  <tariffe valuta="EUR">
+    <tariffa nome="Pomeridiana">
+      <condizione>Giorni feriali fino alle 18:59, escluso il sabato.</condizione>
+      <intero>6.50</intero>
+      <ridotto>5.00</ridotto>
+    </tariffa>
+    <tariffa nome="Serale">
+      <condizione>Giorni feriali dalle 19:00, escluso il sabato.</condizione>
+      <intero>8.50</intero>
+      <ridotto>7.00</ridotto>
+    </tariffa>
+    <tariffa nome="Festivi">
+      <condizione>Sabato, domenica e giorni festivi.</condizione>
+      <intero>9.00</intero>
+      <ridotto>7.50</ridotto>
+    </tariffa>
+    <riduzione>Studenti e over 65 con certificazione.</riduzione>
+    <supplemento3D>2.00</supplemento3D>
+  </tariffe>
+  
+  <abbonamenti>
+    <abbonamento nome="Sun">
+      <ingressi>10</ingressi>
+      <prezzo>50.00</prezzo>
+      <condizione>Tutti gli spettatori. Supplemento 3D escluso.</condizione>
+    </abbonamento>
+    <abbonamento nome="Moon">
+      <ingressi>5</ingressi>
+      <prezzo>29.00</prezzo>
+      <condizione>Tutti gli spettatori. Supplemento 3D escluso.</condizione>
+    </abbonamento>
+    <abbonamento nome="Earth">
+      <ingressi>5</ingressi>
+      <prezzo>24.00</prezzo>
+      <condizione>Studenti e over 65. Supplemento 3D escluso.</condizione>
+    </abbonamento>
+  </abbonamenti>
+</cinema>

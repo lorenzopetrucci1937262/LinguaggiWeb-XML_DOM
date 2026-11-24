@@ -1,0 +1,2 @@
+<?php
+const HASH_ADMIN = '$2y$12$OdC47D7TBNE8PU47xV6h/.bXIZgGgo5GJHJHcIlVd4d.hqvL9AE7e';
