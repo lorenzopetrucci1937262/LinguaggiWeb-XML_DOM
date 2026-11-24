@@ -11,7 +11,7 @@ Lorenzo Petrucci
 ## Credenziali di accesso amministratore
 
 - **Username:** `admin`
-- **Password:** [da inserire]
+- **Password:** `Artemis2026!`
 
 Il collegamento **Area Riservata Admin** si trova in fondo a ogni pagina. Per provare il sito come spettatore si può creare un account dall’area personale o direttamente durante la prenotazione.
 
