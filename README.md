@@ -2,11 +2,11 @@
 
 ## Autore
 
-Lorenzo Petrucci
+Lorenzo Petrucci, matricola 1937262
 
 ## Repository di GitHub
 
-[Inserire il link alla repository di questo homework]
+LinguaggiWeb-XML_DOM su GitHub: https://github.com/lorenzopetrucci1937262/LinguaggiWeb-XML_DOM
 
 ## Credenziali di accesso amministratore
 
