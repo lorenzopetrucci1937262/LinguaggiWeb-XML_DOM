@@ -39,7 +39,7 @@ function applicaModifica($doc, $sale, $dati) {
         if (!$nodo) throw new DomainException('Seleziona una proiezione esistente.');
     }
     if ($azione === 'elimina') {
-        $prenotati = occupati(gruppoPrenotazioni(archivio('prenotazioni'), $nodo->getAttribute('id')));
+        $prenotati = postiPrenotati($nodo->getAttribute('id'));
         if ($prenotati) throw new DomainException("Spettacolo con $prenotati posti prenotati: eliminazione bloccata.");
         $film->removeChild($nodo);
         if (!$film->getElementsByTagName('proiezione')->length) $film->setAttribute('stato','in_calendario');
@@ -85,7 +85,7 @@ function applicaModifica($doc, $sale, $dati) {
         $film->appendChild($nodo);
     }
     if ($nodo->getAttribute('sala') && $nodo->getAttribute('sala') !== $sala) {
-        $prenotati = occupati(gruppoPrenotazioni(archivio('prenotazioni'),$nodo->getAttribute('id')));
+        $prenotati = postiPrenotati($nodo->getAttribute('id'));
         if ($prenotati > capienze()[$sala]) throw new DomainException("Sala troppo piccola per i $prenotati posti prenotati.");
     }
     $nodo->setAttribute('sala',$sala);
@@ -97,11 +97,10 @@ function applicaModifica($doc, $sale, $dati) {
 }
 // La lista è una copia: removeChild modificherà la NodeList del documento.
 function riepilogoRientro($film) {
-    $archivio = archivio('prenotazioni');
+    $occupati = postiPerProiezione();
     $righe = [];
     foreach ($film->getElementsByTagName('proiezione') as $p) {
-        $gruppo = gruppoPrenotazioni($archivio,$p->getAttribute('id'));
-        $righe[] = ['proiezione'=>$p, 'posti'=>occupati($gruppo)];
+        $righe[] = ['proiezione'=>$p, 'posti'=>$occupati[$p->getAttribute('id')] ?? 0];
     }
     return $righe;
 }
@@ -141,8 +140,7 @@ function importaSchedeInverno($doc) {
 }
 
 function rimuoviProiezioniTerminate($doc, $adesso) {
-    $prenotazioni = archivio('prenotazioni');
-    $aggiornaStorico = false;
+    $storico = database()->prepare('UPDATE prenotazioni SET riepilogo = ? WHERE proiezione = ?');
     $numero = 0;
     foreach ($doc->getElementsByTagName('film') as $film) {
         $durata = (int)(valoriFilm($film, 'durata')[0] ?? 0);
@@ -150,18 +148,13 @@ function rimuoviProiezioniTerminate($doc, $adesso) {
         foreach (iterator_to_array($film->getElementsByTagName('proiezione')) as $p) {
             $inizio = inizioSpettacolo($p);
             if ($inizio === false || $inizio + 60 * $durata > $adesso) continue;
-            $gruppo = gruppoPrenotazioni($prenotazioni, $p->getAttribute('id'));
-            if ($gruppo && occupati($gruppo)) {
-                $descrizione = titolo($film).' · '.date('d/m/Y H:i', $inizio).' · Sala '.ucfirst($p->getAttribute('sala'));
-                $gruppo->setAttribute('riepilogo', $descrizione);
-                $aggiornaStorico = true;
-            }
+            $descrizione = titolo($film).' · '.date('d/m/Y H:i', $inizio).' · Sala '.ucfirst($p->getAttribute('sala'));
+            $storico->execute([$descrizione, $p->getAttribute('id')]);
             $film->removeChild($p);
             $numero++;
             if (!$film->getElementsByTagName('proiezione')->length) $film->setAttribute('stato', 'in_calendario');
         }
     }
-    if ($aggiornaStorico) registraArchivio($prenotazioni);
     return $numero;
 }
 
@@ -192,10 +185,6 @@ function salvaModifica($sale,$dati) {
             $numero = rimuoviProiezioniTerminate($doc, time());
             if ($numero) salvaCartellone($doc);
             return $numero;
-        }
-        if (($dati['azione'] ?? '') === 'assegnaCodici') {
-            $verifica = cartellaPrivata() . '/verifica.txt';
-            if (file_put_contents($verifica,"Archivio accessibile dal web.") === false) throw new RuntimeException('Controllo archivi non disponibile.');
         }
         $idSalvato = null;
         if (($dati['azione'] ?? '') === 'scheda') $idSalvato = scriviScheda($doc, $sale, $dati);

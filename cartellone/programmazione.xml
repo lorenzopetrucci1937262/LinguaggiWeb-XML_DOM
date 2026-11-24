@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <programmazione xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../programmazione.xsd">
-  
   <film id="wild-horse-nine" stato="in_proiezione" uscita="2026-11-05">
     <titolo>Wild Horse Nine</titolo>
     <durata>118</durata>
@@ -18,7 +17,6 @@
     <proiezione sala="gialla" data="2026-11-24" ora="21:30:00" id="p-ecbb7464443b"/>
     <proiezione sala="gialla" data="2026-11-25" ora="18:30:00" id="p-bb64c458f906"/>
   </film>
-
   <film id="hunger-games" maxPerFascia="2" stato="in_proiezione" uscita="2026-11-19">
     <titolo>Hunger Games – L’alba sulla mietitura</titolo>
     <durata>158</durata>
@@ -59,7 +57,6 @@
     <proiezione sala="blu" data="2026-12-02" ora="15:30:00" id="p-af3d2a605871"/>
     <proiezione sala="blu" data="2026-12-02" ora="18:35:00" id="p-6ad14f82eb2e"/>
   </film>
-
   <film id="fjord" stato="in_proiezione" uscita="2026-11-19">
     <titolo>Fjord</titolo>
     <durata>146</durata>
@@ -86,7 +83,6 @@
     <proiezione sala="gialla" data="2026-12-01" ora="15:45:00" id="p-f834676f8c76"/>
     <proiezione sala="gialla" data="2026-12-02" ora="15:45:00" id="p-85490b3f0b17"/>
   </film>
-
   <film id="look-back" stato="in_proiezione" uscita="2026-11-12">
     <titolo>Look Back</titolo>
     <durata>100</durata>
@@ -103,7 +99,6 @@
     <proiezione sala="gialla" data="2026-11-25" ora="16:00:00" id="p-ad59b5b1e674"/>
     <proiezione sala="gialla" data="2026-11-25" ora="21:30:00" id="p-77cf31246a3f"/>
   </film>
-
   <film id="godzilla-minus-zero" stato="in_proiezione" uscita="2026-11-12">
     <titolo>Godzilla Minus Zero</titolo>
     <durata>135</durata>
@@ -123,7 +118,6 @@
     <proiezione sala="blu" data="2026-11-25" ora="16:00:00" id="p-6c47a8a27d83"/>
     <proiezione sala="blu" data="2026-11-25" ora="21:30:00" id="p-d1b469dfcd13"/>
   </film>
-
   <film id="dune-3" maxPerFascia="2" stato="in_calendario" uscita="2026-12-16">
     <titolo>Dune – Parte Tre</titolo>
     <regia>Denis Villeneuve</regia>
@@ -136,7 +130,6 @@
     </cast>
     <trama>La storia di Paul Atreides prosegue dopo la sua ascesa al trono imperiale.</trama>
   </film>
-
   <film id="hexe" stato="in_proiezione" uscita="2026-11-26">
     <titolo>Hexe – Il regno delle streghe</titolo>
     <durata>109</durata>
@@ -173,7 +166,6 @@
     <proiezione sala="grande" data="2026-12-02" ora="18:30:00" id="p-8f3a400a98ba"/>
     <proiezione sala="blu" data="2026-12-02" ora="21:40:00" id="p-d381230b81dc"/>
   </film>
-
   <film id="e-andata-cosi" stato="in_proiezione" uscita="2026-11-26">
     <titolo>È andata così</titolo>
     <durata>120</durata>
@@ -209,7 +201,6 @@
     <proiezione sala="rossa" data="2026-12-02" ora="18:45:00" id="p-0240b55e0500"/>
     <proiezione sala="rossa" data="2026-12-02" ora="21:15:00" id="p-a75b54dadc58"/>
   </film>
-
   <film id="succedera-questa-notte" stato="in_calendario" uscita="2026-12-03">
     <titolo>Succederà questa notte</titolo>
     <regia>Nanni Moretti</regia>
@@ -222,7 +213,6 @@
     </cast>
     <trama>Un incontro casuale a distanza di sette anni riapre la possibilità di un rapporto. Altre vite si intrecciano intorno al desiderio di ricominciare.</trama>
   </film>
-
   <film id="i-swear" stato="in_calendario" uscita="2026-12-09">
     <titolo>I Swear – È più forte di me</titolo>
     <regia>Kirk Jones</regia>
@@ -236,7 +226,6 @@
     </cast>
     <trama>Nella Scozia degli anni Ottanta John Davidson cresce con la sindrome di Tourette. Le incomprensioni che incontra lo spingeranno a raccontare la propria esperienza in pubblico.</trama>
   </film>
-
   <film id="il-caso-marie-claire" stato="in_calendario" uscita="2026-12-10">
     <titolo>Il caso Marie-Claire</titolo>
     <regia>Lauriane Escaffre</regia>
@@ -251,7 +240,6 @@
     </cast>
     <trama>Francia, 1972. Il processo a una sedicenne accusata di aborto porta davanti al tribunale di Bobigny una questione che divide il paese.</trama>
   </film>
-
   <film id="avengers-doomsday" stato="in_calendario" maxPerFascia="2" uscita="2026-12-16">
     <titolo>Avengers: Doomsday</titolo>
     <regia>Anthony Russo</regia>
@@ -266,7 +254,6 @@
     </cast>
     <trama>Gli eroi di tre universi affrontano una minaccia che mette in gioco la sopravvivenza dei loro mondi.</trama>
   </film>
-
   <film id="nella-gioia-e-nel-dolore" stato="in_calendario" uscita="2026-12-17">
     <titolo>Nella gioia e nel dolore</titolo>
     <regia>Ferzan Özpetek</regia>
@@ -279,7 +266,6 @@
     </cast>
     <trama>Una diva del cinema e le persone che le sono vicine fanno i conti con i ricordi che ancora le legano.</trama>
   </film>
-
   <film id="jumanji-open-world" stato="in_calendario" uscita="2026-12-25">
     <titolo>Jumanji: Open World</titolo>
     <regia>Jake Kasdan</regia>
@@ -294,7 +280,6 @@
     </cast>
     <trama>Il gioco sfugge alla console e invade il mondo reale. Chi conosce già le sue regole deve affrontarle su un terreno nuovo.</trama>
   </film>
-
   <film id="bentornati-al-sud" stato="in_calendario" uscita="2026-12-25">
     <titolo>Bentornati al Sud</titolo>
     <regia>Luca Miniero</regia>
@@ -307,7 +292,6 @@
     </cast>
     <trama>Nuovo capitolo della commedia che segue le vicende di Alberto e Mattia tra Nord e Sud Italia.</trama>
   </film>
-
   <film id="ti-presento-i-fotter" stato="in_proiezione" uscita="2026-11-25">
     <titolo>Ti presento i Fotter</titolo>
     <durata>106</durata>
@@ -336,7 +320,6 @@
     <proiezione sala="gialla" data="2026-12-02" ora="18:40:00" id="p-94ee06ed3518"/>
     <proiezione sala="gialla" data="2026-12-02" ora="21:35:00" id="p-d05e6b8bf3c8"/>
   </film>
-
   <film id="unaltra-notte-violenta-e-silenziosa" stato="in_calendario" uscita="2026-12-03">
     <titolo>Un’altra notte violenta e silenziosa</titolo>
     <regia>Tommy Wirkola</regia>
@@ -350,7 +333,6 @@
     </cast>
     <trama>Una banda prende il controllo di un centro commerciale del New Jersey. Tra le persone rimaste intrappolate trova un avversario inatteso: Babbo Natale.</trama>
   </film>
-
   <film id="werwulf" stato="in_calendario" uscita="2027-01-01">
     <titolo>Werwulf</titolo>
     <regia>Robert Eggers</regia>
@@ -364,7 +346,6 @@
     </cast>
     <trama>Nell’Inghilterra medievale gli abitanti di un villaggio devono fare i conti con una creatura che si aggira nelle loro terre.</trama>
   </film>
-
   <film id="asterix-regno-nubia" stato="in_calendario" uscita="2027-01-13">
     <titolo>Asterix e il Regno di Nubia</titolo>
     <regia>Alexandre Heboyan</regia>
@@ -378,7 +359,6 @@
     </cast>
     <trama>Un elisir finisce nel calderone della pozione magica: gli abitanti del villaggio gallico si ritrovano bambini. Per rimediare occorre cercare aiuto in Nubia.</trama>
   </film>
-
   <film id="lucio" stato="in_calendario" uscita="2027-01-18">
     <titolo>Lucio</titolo>
     <regia>Ambrogio Lo Giudice</regia>
@@ -393,7 +373,6 @@
     </cast>
     <trama>Dagli anni di formazione agli incontri con altri musicisti, il film ripercorre la vita di Lucio Dalla attraverso le persone che hanno condiviso il suo cammino.</trama>
   </film>
-
   <film id="bianco" stato="in_calendario" uscita="2027-01-21">
     <titolo>Bianco</titolo>
     <regia>Daniele Vicari</regia>
@@ -407,7 +386,6 @@
     </cast>
     <trama>Nel 1961 alpinisti italiani e francesi affrontano il Pilone Centrale del Frêney, sul Monte Bianco. Il maltempo trasforma la scalata in una lotta per tornare a valle.</trama>
   </film>
-
   <film id="scherzetto" stato="in_calendario" uscita="2027-01-28">
     <titolo>Scherzetto</titolo>
     <regia>Mario Martone</regia>
@@ -421,5 +399,4 @@
     </cast>
     <trama>Un illustratore torna a Napoli per badare al nipote mentre cerca di finire un lavoro. Il bambino, nella casa di famiglia, gli impone un ritmo tutto suo.</trama>
   </film>
-  
 </programmazione>

@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS cinema_artemis CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE cinema_artemis;
+
+CREATE TABLE IF NOT EXISTS utenti (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(32) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS prenotazioni (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    utente INT UNSIGNED NOT NULL,
+    proiezione VARCHAR(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+    posti INT UNSIGNED NOT NULL,
+    riepilogo TEXT,
+    INDEX (proiezione),
+    FOREIGN KEY (utente) REFERENCES utenti(id)
+) ENGINE=InnoDB;

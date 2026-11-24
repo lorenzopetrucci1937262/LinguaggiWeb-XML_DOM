@@ -78,7 +78,7 @@ if ($id !== '' && !$film) http_response_code(404);
             $perGiorno = [];
             foreach ($spettacoli as $p) $perGiorno[$p->getAttribute('data')][] = $p;
             $giorni = ['lun','mar','mer','gio','ven','sab','dom'];
-            $prenotazioni = archivio('prenotazioni');
+            $occupati = postiPerProiezione();
             $capienze = capienze();
             foreach ($perGiorno as $data => $lista):
                 $giorno = new DateTimeImmutable($data);
@@ -92,7 +92,7 @@ if ($id !== '' && !$film) http_response_code(404);
                     $stato = '';
                     if (inizioSpettacolo($p) <= time()) $stato = 'Chiuso';
                     elseif (!$codice) $stato = 'In preparazione';
-                    elseif (occupati(gruppoPrenotazioni($prenotazioni,$codice)) >= $capienze[$idSala]) $stato = 'Esaurito';
+                    elseif (($occupati[$codice] ?? 0) >= $capienze[$idSala]) $stato = 'Esaurito';
                     $etichetta = substr($p->getAttribute('ora'),0,5);
                     if (in_array($p->getAttribute('in3D'),['1','true'],true)) $etichetta .= ' · 3D';
                 ?>

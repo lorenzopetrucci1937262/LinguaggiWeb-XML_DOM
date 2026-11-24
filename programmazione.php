@@ -1,10 +1,10 @@
 <?php
 require_once __DIR__ . '/operazioni.php';
-$prenotazioni = archivio('prenotazioni');
+$occupati = postiPerProiezione();
 $cinema = apriXml('cinema.xml');
 $programmazione = apriXml('programmazione.xml');
 
-function h($testo) {
+function h(string $testo) {
     return htmlspecialchars($testo, ENT_QUOTES, 'UTF-8');
 }
 
@@ -31,7 +31,7 @@ foreach ($programmazione->getElementsByTagName('film') as $film) {
         $calendario[$data][$idSala][] = [
             'codice' => $proiezione->getAttribute('id'),
             'inizio' => inizioSpettacolo($proiezione),
-            'liberi' => $sale[$idSala]['posti'] - occupati(gruppoPrenotazioni($prenotazioni,$proiezione->getAttribute('id'))),
+            'liberi' => $sale[$idSala]['posti'] - ($occupati[$proiezione->getAttribute('id')] ?? 0),
             'ora' => $proiezione->getAttribute('ora'),
             'titolo' => $titolo,
             'id' => $film->getAttribute('id'),

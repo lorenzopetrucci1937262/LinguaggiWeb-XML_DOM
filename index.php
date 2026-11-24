@@ -1,5 +1,11 @@
 <?php
 require __DIR__.'/operazioni.php';
+try {
+    database();
+} catch (RuntimeException $e) {
+    http_response_code(503);
+    exit(htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8'));
+}
 function h($s) { return htmlspecialchars($s,ENT_QUOTES,'UTF-8'); }
 $doc = apriXml('programmazione.xml');
 $films = filmPerUscita($doc,date('Y-m-d'));
